@@ -12,4 +12,6 @@
   
   padding: 0 1rem;
   border: 0.5rem solid green;
+  flex: 1 0 10ch;
+
 }
