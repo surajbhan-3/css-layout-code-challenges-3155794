@@ -25,12 +25,14 @@ img {
 
 .main {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
 }
 
 .card {
-  width: clamp(20ch, 50%, var(--content-width));
-  margin: 2rem;
+  width: clamp(20ch, calc(1/4 *100%),100%);
+  
  border: .5rem solid black;
 }
 
